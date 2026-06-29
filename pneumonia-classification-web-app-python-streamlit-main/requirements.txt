@@ -2,9 +2,9 @@
 # Production-ready dependencies
 
 # Core ML/DL
-tensorflow>=2.12.0
-tf_keras>=2.15.0
-numpy>=1.23.5
+tensorflow==2.17.0
+keras==3.4.1
+numpy<2.0.0
 
 # Web Framework
 streamlit>=1.30.0

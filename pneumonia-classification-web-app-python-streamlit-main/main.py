@@ -1,7 +1,7 @@
 import streamlit as st
-# Use tf_keras for backward compatibility with Keras 2.x models
-import tf_keras as keras
-from tf_keras.models import load_model
+# Use keras with TensorFlow backend
+from tensorflow import keras
+from keras.models import load_model
 from PIL import Image
 import numpy as np
 import time
